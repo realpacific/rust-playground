@@ -14,3 +14,9 @@ pub fn provides_arrays() -> usize {
 fn slice(slice: &[i32]) {
     println!("Slice {:?}", slice)
 }
+
+
+pub fn run() {
+    println!("\n");
+    println!("{:?}", provides_arrays());
+}
