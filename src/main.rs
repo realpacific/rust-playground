@@ -6,6 +6,8 @@ mod struct_demo;
 mod conversion;
 mod control;
 mod pointers;
+mod method;
+mod capturing;
 
 fn main() {
 //    format::run();
@@ -13,7 +15,9 @@ fn main() {
 //    struct_demo::run();
 //    conversion::run();
 //    control::run();
-    pointers::run();
+//    pointers::run();
+//    method::run();
+    capturing::run();
 }
 
 
